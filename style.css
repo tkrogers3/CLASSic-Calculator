@@ -1,0 +1,11 @@
+@font-face {
+       font-family: myFirstFont;
+       src: url(Digital7Monoitalic-8xKz.ttf);
+
+}
+
+#numberText{
+
+       font-family: myFirstFont;
+
+}
