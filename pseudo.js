@@ -27,6 +27,11 @@ numOne, operator, numTwo
 
     // Make a function to process the problem by operator
 
+
+    function operator {
+
+      if ( opp === -)
+    }
 if  operator is a +, 
 this.numOne array.push [0] & this.operator array.push [1]
 this.numTwo array.push [2]
