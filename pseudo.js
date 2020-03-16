@@ -52,6 +52,13 @@ if operator is =
 sum of array -this.numOne array.push [0] & this.operator array.push [1]
 this.numTwo array.push [2]
 
+
+how to handle . and allow it to only be used once. 
+
+how to handle num / 0 to get an error .
+
+how to handle math from not computing if more than 1 digit in a  number
+
 if operator is C 
 CLEAR view
 
@@ -74,6 +81,11 @@ class Controller {
   constructor(m){
     this.model = m;
   }
+
+  /* What is the role of the controller?
+  
+  The controller handles all clicks and sends the click information to the model, which gets returned 
+  to the controller to distribute to the view. */ 
   
   handleKeyEvent(){
     this.model.incrementNumber();
